@@ -1,0 +1,718 @@
+
+student@R3-SYS19 MINGW64 ~
+$ cd desktop
+
+student@R3-SYS19 MINGW64 ~/desktop
+$ cd Resume
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ git log
+commit 210a50b3bcfd7053dee51a28f9ed48167068b493 (HEAD -> master, origin/master, origin/HEAD)
+Author: srinithi <srinithisridepa@gmail.com>
+Date:   Mon Jul 30 12:05:59 2018 +0530
+
+    third commit
+
+commit 079a59c54d728d7fed670e5e15347bf55576198b
+Author: srinithi <srinithisridepa@gmail.com>
+Date:   Mon Jul 30 12:00:52 2018 +0530
+
+    first commit
+
+commit bc42760298b938114d8fe10ddd2449b9b5127297
+Author: Srinithi <30365401+srinidhichowdary@users.noreply.github.com>
+Date:   Mon Jul 30 10:52:00 2018 +0530
+
+    Initial commit
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Resume.html
+        images/
+        style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ git add -A
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ git log
+commit 210a50b3bcfd7053dee51a28f9ed48167068b493 (HEAD -> master, origin/master, origin/HEAD)
+Author: srinithi <srinithisridepa@gmail.com>
+Date:   Mon Jul 30 12:05:59 2018 +0530
+
+    third commit
+
+commit 079a59c54d728d7fed670e5e15347bf55576198b
+Author: srinithi <srinithisridepa@gmail.com>
+Date:   Mon Jul 30 12:00:52 2018 +0530
+
+    first commit
+
+commit bc42760298b938114d8fe10ddd2449b9b5127297
+Author: Srinithi <30365401+srinidhichowdary@users.noreply.github.com>
+Date:   Mon Jul 30 10:52:00 2018 +0530
+
+    Initial commit
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Resume.html
+        new file:   images/profile.png
+        modified:   index.html
+        new file:   style.css
+
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ git commit -a -m "resumecreation"
+[master d0a4c20] resumecreation
+ 4 files changed, 79 insertions(+), 1 deletion(-)
+ create mode 100644 Resume.html
+ create mode 100644 images/profile.png
+ create mode 100644 style.css
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ git push origin master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 5.79 KiB | 5.79 MiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/srinidhichowdary/Resume.git
+   210a50b..d0a4c20  master -> master
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ tudent@R3-SYS19 MINGW64 ~
+bash: recent: command not found
+
+student@R3-SYS19 MINGW64 ~
+$ cls
+bash: cls: command not found
+
+student@R3-SYS19 MINGW64 ~
+$ cd index.html
+bash: cd: index.html: No such file or directory
+
+student@R3-SYS19 MINGW64 ~
+$ cd Resume
+bash: cd: Resume: No such file or directory
+
+student@R3-SYS19 MINGW64 ~
+$ cd desktop
+
+student@R3-SYS19 MINGW64 ~/desktop
+$ cd Resume
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ git log
+commit 210a50b3bcfd7053dee51a28f9ed48167068b493 (HEAD -> master, origin/master, origin/HEAD)
+Author: srinithi <srinithisridepa@gmail.com>
+Date:   Mon Jul 30 12:05:59 2018 +0530
+
+    third commit
+
+commit 079a59c54d728d7fed670e5e15347bf55576198b
+Author: srinithi <srinithisridepa@gmail.com>
+Date:   Mon Jul 30 12:00:52 2018 +0530
+
+    first commit
+
+commit bc42760298b938114d8fe10ddd2449b9b5127297
+Author: Srinithi <30365401+srinidhichowdary@users.noreply.github.com>
+Date:   Mon Jul 30 10:52:00 2018 +0530
+
+    Initial commit
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Resume.html
+        images/
+        style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ git add -A
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ git log
+commit 210a50b3bcfd7053dee51a28f9ed48167068b493 (HEAD -> master, origin/master, origin/HEAD)
+Author: srinithi <srinithisridepa@gmail.com>
+Date:   Mon Jul 30 12:05:59 2018 +0530
+
+    third commit
+
+commit 079a59c54d728d7fed670e5e15347bf55576198b
+Author: srinithi <srinithisridepa@gmail.com>
+Date:   Mon Jul 30 12:00:52 2018 +0530
+
+    first commit
+
+commit bc42760298b938114d8fe10ddd2449b9b5127297
+Author: Srinithi <30365401+srinidhichowdary@users.noreply.github.com>
+Date:   Mon Jul 30 10:52:00 2018 +0530
+
+    Initial commit
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Resume.html
+        new file:   images/profile.png
+        modified:   index.html
+        new file:   style.css
+
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ git commit -a -m "resumecreation"
+[master d0a4c20] resumecreation
+ 4 files changed, 79 insertions(+), 1 deletion(-)
+ create mode 100644 Resume.html
+ create mode 100644 images/profile.png
+ create mode 100644 style.css
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ git push origin master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 5.79 KiB | 5.79 MiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/srinidhichowdary/Resume.git
+   210a50b..d0a4c20  master -> master
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+bash: tudent@R3-SYS19: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ $ recent
+bash: $: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ bash: recent: command not found
+bash: bash:: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ student@R3-SYS19 MINGW64 ~
+bash: student@R3-SYS19: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ $ cls
+bash: $: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ bash: cls: command not found
+bash: bash:: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ student@R3-SYS19 MINGW64 ~
+bash: student@R3-SYS19: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ $ cd index.html
+bash: $: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ bash: cd: index.html: No such file or directory
+bash: bash:: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ student@R3-SYS19 MINGW64 ~
+bash: student@R3-SYS19: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ $ cd Resume
+bash: $: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ bash: cd: Resume: No such file or directory
+bash: bash:: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ student@R3-SYS19 MINGW64 ~
+bash: student@R3-SYS19: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ $ cd desktop
+bash: $: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ student@R3-SYS19 MINGW64 ~/desktop
+bash: student@R3-SYS19: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ $ cd Resume
+bash: $: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+bash: syntax error near unexpected token `('
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ $ git log
+bash: $: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ commit 210a50b3bcfd7053dee51a28f9ed48167068b493 (HEAD -> master, origin/master, origin/HEAD)
+bash: syntax error near unexpected token `('
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ Author: srinithi <srinithisridepa@gmail.com>
+bash: syntax error near unexpected token `newline'
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ Date:   Mon Jul 30 12:05:59 2018 +0530
+bash: Date:: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$     third commit
+bash: third: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ commit 079a59c54d728d7fed670e5e15347bf55576198b
+bash: commit: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ Author: srinithi <srinithisridepa@gmail.com>
+bash: syntax error near unexpected token `newline'
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ Date:   Mon Jul 30 12:00:52 2018 +0530
+bash: Date:: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$     first commit
+bash: first: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ commit bc42760298b938114d8fe10ddd2449b9b5127297
+bash: commit: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ Author: Srinithi <30365401+srinidhichowdary@users.noreply.github.com>
+bash: syntax error near unexpected token `newline'
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ Date:   Mon Jul 30 10:52:00 2018 +0530
+bash: Date:: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$     Initial commit
+bash: Initial: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+bash: syntax error near unexpected token `('
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ $ git status
+bash: $: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ On branch master
+bash: On: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ Your branch is up to date with 'origin/master'.
+bash: Your: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ nothing to commit, working tree clean
+bash: nothing: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+bash: syntax error near unexpected token `('
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ $ git status
+bash: $: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ On branch master
+bash: On: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ Your branch is up to date with 'origin/master'.
+bash: Your: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ Changes not staged for commit:
+bash: Changes: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$   (use "git add <file>..." to update what will be committed)
+bash: use: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$   (use "git checkout -- <file>..." to discard changes in working directory)
+bash: use: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$         modified:   index.html
+bash: modified:: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ Untracked files:
+bash: Untracked: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$   (use "git add <file>..." to include in what will be committed)
+bash: use: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$         Resume.html
+bash: Resume.html: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$         images/
+bash: images/: Is a directory
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$         style.css
+bash: style.css: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ no changes added to commit (use "git add" and/or "git commit -a")
+bash: syntax error near unexpected token `('
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+bash: syntax error near unexpected token `('
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ $ git add -A
+bash: $: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+bash: syntax error near unexpected token `('
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ $ git log
+bash: $: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ commit 210a50b3bcfd7053dee51a28f9ed48167068b493 (HEAD -> master, origin/master, origin/HEAD)
+bash: syntax error near unexpected token `('
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ Author: srinithi <srinithisridepa@gmail.com>
+bash: syntax error near unexpected token `newline'
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ Date:   Mon Jul 30 12:05:59 2018 +0530
+bash: Date:: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$     third commit
+bash: third: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ commit 079a59c54d728d7fed670e5e15347bf55576198b
+bash: commit: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ Author: srinithi <srinithisridepa@gmail.com>
+bash: syntax error near unexpected token `newline'
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ Date:   Mon Jul 30 12:00:52 2018 +0530
+bash: Date:: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$     first commit
+bash: first: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ commit bc42760298b938114d8fe10ddd2449b9b5127297
+bash: commit: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ Author: Srinithi <30365401+srinidhichowdary@users.noreply.github.com>
+bash: syntax error near unexpected token `newline'
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ Date:   Mon Jul 30 10:52:00 2018 +0530
+bash: Date:: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$     Initial commit
+bash: Initial: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+bash: syntax error near unexpected token `('
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ $ git status
+bash: $: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ On branch master
+bash: On: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ Your branch is up to date with 'origin/master'.
+bash: Your: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ Changes to be committed:
+bash: Changes: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$   (use "git reset HEAD <file>..." to unstage)
+bash: use: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$         new file:   Resume.html
+bash: new: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$         new file:   images/profile.png
+bash: new: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$         modified:   index.html
+bash: modified:: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$         new file:   style.css
+bash: new: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+bash: syntax error near unexpected token `('
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ $ git commit -a -m "resumecreation"
+bash: $: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ [master d0a4c20] resumecreation
+bash: [master: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$  4 files changed, 79 insertions(+), 1 deletion(-)
+bash: syntax error near unexpected token `('
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$  create mode 100644 Resume.html
+bash: create: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$  create mode 100644 images/profile.png
+bash: create: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$  create mode 100644 style.css
+bash: create: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+bash: syntax error near unexpected token `('
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ $ git push origin master
+bash: $: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ Enumerating objects: 9, done.
+bash: Enumerating: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ Counting objects: 100% (9/9), done.
+bash: syntax error near unexpected token `('
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ Delta compression using up to 4 threads.
+bash: Delta: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ Compressing objects: 100% (6/6), done.
+bash: syntax error near unexpected token `('
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ Writing objects: 100% (7/7), 5.79 KiB | 5.79 MiB/s, done.
+bash: syntax error near unexpected token `('
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ Total 7 (delta 1), reused 0 (delta 0)
+bash: syntax error near unexpected token `('
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ remote: Resolving deltas: 100% (1/1), done.
+bash: syntax error near unexpected token `('
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ To https://github.com/srinidhichowdary/Resume.git
+bash: To: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$    210a50b..d0a4c20  master -> master
+bash: 210a50b..d0a4c20: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+bash: syntax error near unexpected token `('
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$ $
+bash: $: command not found
+
+student@R3-SYS19 MINGW64 ~/desktop/Resume (master)
+$
