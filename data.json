@@ -1,5 +1,56 @@
 {
   "career":{
     "info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
-  }
+  },
+  "education":[
+    {
+      "degree":"b.tech(computersience)",
+      "institute":"sietk",
+      "data":["2015-2019","83"]
+    },
+    {
+      "degree":"intermediate",
+      "institute":"sai jyothi junior college",
+      "data":["2013-2015","97"]
+    },
+
+    {
+      "degree":"ssc",
+      "institute":"Little Flower EM high SChool",
+      "data":["2012-2013","9.5"]
+    }
+  ],
+  "skills":[
+    {
+      "title":"programming languages",
+      "set":["c","java","python","data stuctures"]
+    },
+    {
+      "title":"Web Technologies",
+      "set":["html","css","php","jscript","json"]
+    },
+    {
+      "title":"Databases",
+      "set":["mysql","oracle","Nosql"]
+    },
+    {
+      "title":"Operating Systems",
+      "set":["Windows","ios"]
+    }
+  ],
+  "acheivements":[
+    {
+      "acheivedData":" Presented paper on FOGCOMPUTING Got 1st prize in ppt"
+    },
+    {
+      "acheivedData":" Presented paper on CLOUDCOMPUTING Got 2nd prize in ppt"
+    },
+    {
+      "acheivedData":"Selected project for statelevel"
+    },
+    {
+      "acheivedData":"Worked as TRAINER ASSISTANT on google android workshop conducted by GOOGLE"
+    }
+  ]
+
 }
